@@ -3,7 +3,6 @@ using UnityEngine;
 public class BreakableDoor : MonoBehaviour
 {
     [Header("Break Settings")]
-    [Tooltip("Force applied to the door when it breaks off the frame")]
     public float breakForce = 5f;
     private bool isBroken = false;
 
