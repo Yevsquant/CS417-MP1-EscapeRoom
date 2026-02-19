@@ -3,7 +3,7 @@ using TMPro;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float timeRemaining = 25f;
+    public float timeRemaining = 90f;
     public TextMeshProUGUI timerText;
 
     void Update()
